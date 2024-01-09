@@ -1,0 +1,223 @@
+
+body{
+    font-family: Arial, sans-serif;
+    background-image: url("/Users/ismail/Desktop/html/ağ tabanlı programlama /finalproject/background.png   ");
+    }
+
+
+
+  
+.menu1 {
+    display: block;
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 20px;
+    transition: background-color 0.3s ease;
+   
+  }
+  
+  .menu1 :hover {
+    background-color: rgb(180, 186, 184);
+    transition: background-color 0.5s ease;
+  }
+  .menu3 {
+    display: block;
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 20px;
+    transition: background-color 0.3s ease;
+    
+  }
+  
+  .menu3 :hover {
+    background-color: rgb(185, 196, 193);
+    transition: background-color 0.5s ease;
+
+  }
+
+
+.menu {
+    list-style-type: none;
+    background-color: black;
+    overflow: hidden;
+}
+.container {
+margin: 50px;
+
+}
+
+nav ul {
+    text-align: center;
+    margin: 0;
+}
+
+nav ul li {
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px;
+}
+
+.menu li {
+    float: left;
+}
+
+.menu a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.menu2:hover #dropdownMenu {
+    display: block;
+}
+
+.dropdown {
+    display: none;
+    position: absolute;
+    background-color: white;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+.dropdown a {
+    margin: 0;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.cizgi1 {
+    margin-top: 20px;
+    margin-bottom: 1rem;
+}
+
+.cizgi1::after {
+    content: "";
+    display: block;
+    margin: auto;
+    width: 70%;
+    border-bottom: 2px solid #9d1111;
+    margin-top: 50px;
+}
+
+h1 {
+    text-align: center;
+    color: #9d1111;
+}
+
+.kelimekartlari1 {
+    background: linear-gradient(-30deg, #0b0b3d 50%, #08082b 50%);
+    padding: 20px 40px;
+    margin: 12px;
+    display: inline-block;
+    color: #d4d4f7;
+    font-size: 20px;
+    letter-spacing: 2.5px;
+    /* Harfler arasında 2.5px boşluk bırak */
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.quiz {
+    background: linear-gradient(-30deg, #0b0b3d 50%, #08082b 50%);
+    padding: 20px 40px;
+    margin: 12px;
+    display: inline-block;
+    color: #d4d4f7;
+    font-size: 20px;
+    letter-spacing: 2.5px;
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+.kelimetahmin{
+    background: linear-gradient(-30deg, #0b0b3d 50%, #08082b 50%);
+    padding: 20px 40px;
+    margin: 12px;
+    display: inline-block;
+    color: #d4d4f7;
+    font-size: 20px;
+    letter-spacing: 2.5px;
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+.kelimetestleri{
+    background: linear-gradient(-30deg, #0b0b3d 50%, #08082b 50%);
+    padding: 20px 40px;
+    margin: 12px;
+    display: inline-block;
+    color: #d4d4f7;
+    font-size: 20px;
+    letter-spacing: 2.5px;
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.cizgi2 {
+    margin-top: 20px;
+    margin-bottom: 1rem;
+}
+
+.cizgi2::after {
+    content: "";
+    display: block;
+    margin: auto;
+    width: 70%;
+    border-bottom: 2px solid #9d1111;
+    margin-top: 50px;
+}
+
+.cizgi4 {
+    margin-top: 20px;
+    margin-bottom: 1rem;
+}
+
+.cizgi4::after {
+    content: "";
+    display: block;
+    margin: auto;
+    width: 70%;
+    border-bottom: 2px solid #9d1111;
+    margin-top: 50px;
+}
+
+.cizgi5 {
+    margin-top: 20px;
+    margin-bottom: 1rem;
+}
+
+.cizgi5::after {
+    content: "";
+    display: block;
+    margin: auto;
+    width: 70%;
+    border-bottom: 2px solid #9d1111;
+    margin-top: 50px;
+}
+
+.dropdown a:hover {
+    background-color: #f1f1f1;
+}
+footer {
+    background-color: #33383c;
+    color: #fff;
+    padding: 20px 0;
+  }
+.social-media {
+    margin-right: 30px;    
+}
+.social-media-border{
+    border-bottom: 2px solid red;
+}
+  
+  .footer-content {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 30px;
+  }

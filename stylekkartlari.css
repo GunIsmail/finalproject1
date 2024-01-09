@@ -1,0 +1,236 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url("/Users/ismail/Desktop/html/ağ tabanlı programlama /finalproject/background.png   ");
+
+}
+.menu1 {
+    display: block;
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 20px;
+    transition: background-color 0.3s ease;
+   
+  }
+
+
+
+  h1 {
+    text-align: center;
+    color: #9d1111;
+}
+
+  
+  .menu1 :hover {
+    background-color: rgb(180, 186, 184);
+    transition: background-color 0.5s ease;
+  }
+  .menu3 {
+    display: block;
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 20px;
+    transition: background-color 0.3s ease;
+    
+  }
+  
+  .menu3 :hover {
+    background-color: rgb(185, 196, 193);
+    transition: background-color 0.5s ease;
+
+  }
+
+
+.menu {
+    list-style-type: none;
+    background-color: black;
+    overflow: hidden;
+}
+.container {
+margin: 50px;
+margin-left: 150px;
+
+}
+
+nav ul {
+    text-align: center;
+    margin: 0;
+}
+
+nav ul li {
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px;
+}
+
+.menu li {
+    float: left;
+}
+
+.menu a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.menu2:hover #dropdownMenu {
+    display: block;
+}
+
+.dropdown {
+    display: none;
+    position: absolute;
+    background-color: white;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+.dropdown a {
+    margin: 0;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+
+footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: #33383c;
+    color: #fff;
+    padding: 5px 0;
+    text-align: center;
+}
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto; /* Footer'ı ortalamak için */
+}
+
+.contact, .social-media {
+    flex: 1; /* Footer içindeki alanları eşit büyüklükte yapmak için */
+}
+
+.social-media-border {
+    border-bottom: 2px solid red;
+}
+
+.social-media ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.social-media li {
+    margin-bottom: 5px;
+}
+
+
+
+
+  .card img {
+    width: 50%;
+     
+     height: auto;
+ }
+ 
+ .card-content {
+     padding: 20px;
+ }
+ 
+ .card h3 {
+     margin-top: 0;
+ }
+ 
+ .card p {
+     color: #555;
+ }
+ 
+ /* pointer*/
+ 
+ .card2 img {
+     width: 50%;
+     height: 100%;
+ }
+ 
+ .card-content2 {
+     padding: 20px;
+ }
+ 
+ .card2 h3 {
+     margin-top: 0;
+ }
+ 
+ .card2 p {
+     color: #555;
+ }
+ 
+ 
+ 
+ .card, .card2 {
+     border: 10px solid #ddd;
+     border-radius: 8px;
+     overflow: hidden;
+     width: 300px;
+     margin: 100px;
+     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+     float: left; /* Yanyana durmalarını sağlamak için float  */
+ }
+ 
+ 
+ /* pointer 2 alt-üst ayrımı*/
+ 
+ 
+ .card3 img {
+     width: 50%;
+     
+ 
+ }
+ 
+ .card-content3 {
+     padding: 20px;
+ }
+ 
+ .card3 h3 {
+     margin-top: 0;
+ }
+ 
+ .card3 p {
+     color: #555;
+ }
+ 
+ /* pointer*/
+ 
+ .card4 img {
+     width: 72%;
+     
+ }
+ 
+ .card-content4 {
+     padding: 20px;
+ }
+ 
+ .card4 h3 {
+     margin-top: 0;
+ }
+ 
+ .card4 p {
+     color: #555;
+ }
+ 
+ 
+ 
+ .card3, .card4 {
+     border: 10px solid #ddd;
+     border-radius: 8px;
+     overflow: hidden;
+     width: 300px;
+     margin: 100px;
+     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+     float: left; /* Yanyana durmalarını sağlamak için float  */
+     margin-bottom:300px;
+ }
